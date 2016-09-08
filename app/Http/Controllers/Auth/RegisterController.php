@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace LaravelProyect\Http\Controllers\Auth;
 
-use App\User;
+use LaravelProyect\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use LaravelProyect\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
 class RegisterController extends Controller
