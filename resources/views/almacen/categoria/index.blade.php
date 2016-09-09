@@ -5,7 +5,7 @@
 	<div class="row">
 		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 			<h3>Listado de Categor&iacute;as 
-				<a href="categoria/create"><button>Nuevo</button></a>
+				<a href="categoria/create"><button class="btn">Nuevo</button></a>
 			</h3>
 			@include('almacen.categoria.search')
 		</div>
@@ -43,6 +43,7 @@
 		</table>
 		
 		</div>
+		{{ $categorias->render() }}
 	</div>
 </div>
 	
